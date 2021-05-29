@@ -5,6 +5,8 @@
  */
 package application;
 
+import boardgame.Position;
+
 /**
  *
  * @author vinys
@@ -15,7 +17,9 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello word");
+        
+        Position p = new Position(1, 2);
+        System.out.println(p);
     }
     
 }
